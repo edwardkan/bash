@@ -118,6 +118,8 @@ alias tmux="TERM=screen-256color-bce tmux"
 # remote desktop via ssh to office 
 alias desk="rdesktop -g 1280x970 localhost:9999"
 
+alias syncdata="rsync -avzh -e ssh dataserver:/mnt/storage/share/Data/MyFiles/MyFiles/Texts/* /home/edwardkan/Documents/MyFiles/Texts/"
+
 # GIT prompt 
 source ~/.bash/gitprompt.sh
 
